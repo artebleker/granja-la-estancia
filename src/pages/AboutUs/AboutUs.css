@@ -1,0 +1,32 @@
+/* About Us */
+
+.aboutUs-card {
+  background-color: #fafafa;
+  max-width: 800px !important;
+  min-height: 225px !important;
+  margin-top: 20px;
+  padding: 1% 20px;
+  position: relative;
+  border-radius: 35px;
+}
+.aboutUs-title,
+.aboutUs-text {
+  color: black;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.aboutUs-title {
+  font-size: 36px;
+  padding: 20px;
+}
+
+.aboutUs-text {
+  font-size: 14px;
+}
+
+@media (max-width: 364px) {
+  .aboutUs {
+    margin: 3px 10px 40%;
+  }
+}

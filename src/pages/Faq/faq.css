@@ -1,0 +1,50 @@
+/* faq */
+
+/* .faq{
+    height: 70vh; 
+  } */
+ 
+  .faqImg{
+    position: absolute;
+    width: 50%;
+     margin-left: -100px;
+    margin-top: 70px; 
+    /* background-image:url('../src/Fondo_sobre_nosotros\ 1.png'); */
+    background-size: 100vh;
+    height: 100%;
+    background-repeat:no-repeat ;
+  }
+  .faq-card{
+    background-color: #fafafa;
+    /* max-width: 500px !important;  */
+    min-height: 225px !important; 
+    margin-top: 20px;
+    padding: 30px 20px ;
+    position: relative;
+    border-radius:35px ;
+
+  }
+  .faq-title, .faq-text{
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+  }
+  .faq-title{
+    font-size: 36px;
+    padding:20px ;
+  }
+  
+  .faq-text p{
+    font-size: 14px;
+    color:black;
+
+}
+
+
+  @media (max-width: 900px){
+    .faqImg{
+      display: none;
+    }
+  }

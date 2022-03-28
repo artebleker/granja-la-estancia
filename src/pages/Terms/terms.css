@@ -1,0 +1,49 @@
+/* term  */
+
+/* .term{
+    height: 70vh; 
+  } */
+ 
+  .termImg{
+    position: absolute;
+    width: 50%;
+     margin-left: -100px;
+    margin-top: 70px; 
+    /* background-image:url('../src/Fondo_sobre_nosotros\ 1.png'); */
+    background-size: 100vh;
+    height: 100%;
+    background-repeat:no-repeat ;
+  }
+  .term-card{
+    background-color: #fafafa;
+    /* max-width:100vh !important;  */
+    min-height: 225px !important; 
+    margin-top: 20px;
+    padding: 30px 20px ;
+    position: relative;
+    border-radius:35px ;
+
+  }
+  .term-title, .term-text{
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+  }
+  .term-title{
+    font-size: 36px;
+    padding:20px ;
+  }
+  
+  .term-text{
+    font-size: 14px;
+    margin: 10px;
+    list-style:outside;
+  }
+
+  @media (max-width: 900px){
+    .termImg{
+      display: none;
+    }
+  }
